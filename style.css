@@ -1,0 +1,113 @@
+*{
+  box-sizing: border-box;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background:rgb(255, 166, 2); */
+    background: url(./background.jpg) no-repeat;
+    background-size: cover;
+}
+.portion{
+    min-height: 50%;
+    width: 500px;
+    border: 4px solid black;
+    border-radius: 40px;
+    backdrop-filter:blur(30px) ;
+}
+.portion h3{
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+}
+.inputs input{
+    border-radius: 10px;
+    margin: 10px  10px 10px 17px;
+    width: 90%;
+    height: 40px;
+    border: 3px solid rgb(93, 73, 73);
+    font-size:15px ;
+}
+.inputs label{
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(5, 5, 6);
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 9px;
+}
+h5{
+    text-align: center;
+    color: rgb(255, 251, 251);
+    font-size: 20px;
+}
+h5 span{
+    color: red;
+    font-size: 20px;
+}
+.submition{
+    display: flex;
+    justify-content: center;
+}
+.gender{
+    display: flex;
+    justify-content: space-around;
+
+}
+.male ,.female{
+    width: 100px;
+    height: 55px;
+    border: 3px solid rgb(240, 9, 190);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+
+}
+.male{
+    border: 3px solid blue;
+}
+.male,.female i{
+    font-size: 30px;
+}
+.original{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.original input{
+    margin-left: 20px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid ;
+}
+.submition button{
+      height: 40px;
+      width: 100px;
+      border: 2px solid black;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      margin-left: 50px;
+      cursor: pointer;
+      color: green;
+      font-size: 18px;
+      background-color: rgb(73, 187, 218);
+      box-shadow: 10px red;
+}
+.submition button:hover{
+    background-color:green;
+    color: rgb(73, 187, 218);
+    transition: 1.9 ease-in;
+}
+.number{
+    font-size: 23px;
+    margin: 0;
+}

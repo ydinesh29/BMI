@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="icon" href="./name.jpg">
+</head>
+<script src="index.js" defer></script>
+
+<body>
+    <section class="page">
+        <form id="bmi-form">
+            <div class="portion">
+                <h3>BMI CALCULATOR</h3>
+                <div class="inputs">
+                    <label>Weight(kg)</label>
+                    <input type="number" id="weight" placeholder="Weight in Kg"  required><br>
+                    <label>Height(cm)</label>
+                    <input type="number" id="height" placeholder="Height in CM" required>
+                </div>
+                <!-- <div class="gender">
+                    <div class="male" >
+                        <input type="radio" name="gender" value="male" required><i class="fa-solid fa-mars fa-flip"
+                            style="color: #105ee5;"></i>
+                    </div>
+                    <div class="female">
+                        <input type="radio" name="gender" value="female"required ><i class="fa-solid fa-venus fa-flip"
+                            style="color: #fb0ed0;"></i>
+                    </div>
+                </div> --> 
+                <div class="submition">
+                    <button type="submit" onclick="calculate()">Calculate</button>
+                    <button type="reset" onclick="reset()">Clear</button>
+                </div>
+        </form>
+        <div class="original">
+            <p class="number">Your BMI is <span id="bmivalue">0.0</span></p>
+        </div>
+        <h5>Your Are<span id="struct"> Healthy</span></h5>
+        </div>
+    </section>
+</body>
+
+</html>
